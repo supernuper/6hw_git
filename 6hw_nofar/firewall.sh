@@ -3,6 +3,7 @@
 pkt=$(cat -)
 rules="$1"
 
+
 [[ ! -f "$rules" ]] && exit
 ##remove extra spaces from the rules file
 rules=$(sed -e 's/#.*//g' -e '/^$/d' "$rules")
