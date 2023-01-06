@@ -1,1 +1,0 @@
-./firewall.exe: error while loading shared libraries: libfirewall.so: cannot open shared object file: No such file or directory
