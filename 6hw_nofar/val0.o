@@ -1,0 +1,900 @@
+==1556== Memcheck, a memory error detector
+==1556== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1556== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1556== Command: ./firewall.exe src-ip=241.1.205.106/32
+==1556== 
+Total parsing time: 49.868 ms (Net: 15.733 ms) 
+==1556== 
+==1556== HEAP SUMMARY:
+==1556==     in use at exit: 0 bytes in 0 blocks
+==1556==   total heap usage: 2,032 allocs, 2,032 frees, 166,395 bytes allocated
+==1556== 
+==1556== All heap blocks were freed -- no leaks are possible
+==1556== 
+==1556== For lists of detected and suppressed errors, rerun with: -s
+==1556== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1559== Memcheck, a memory error detector
+==1559== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1559== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1559== Command: ./firewall.exe dst-ip=177.55.2.132/32
+==1559== 
+Total parsing time: 26.462 ms (Net: 4.358 ms) 
+==1559== 
+==1559== HEAP SUMMARY:
+==1559==     in use at exit: 0 bytes in 0 blocks
+==1559==   total heap usage: 52 allocs, 52 frees, 82,500 bytes allocated
+==1559== 
+==1559== All heap blocks were freed -- no leaks are possible
+==1559== 
+==1559== For lists of detected and suppressed errors, rerun with: -s
+==1559== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1562== Memcheck, a memory error detector
+==1562== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1562== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1562== Command: ./firewall.exe src-port=25-25
+==1562== 
+Total parsing time: 26.282 ms (Net: 3.723 ms) 
+==1562== 
+==1562== HEAP SUMMARY:
+==1562==     in use at exit: 0 bytes in 0 blocks
+==1562==   total heap usage: 43 allocs, 43 frees, 82,149 bytes allocated
+==1562== 
+==1562== All heap blocks were freed -- no leaks are possible
+==1562== 
+==1562== For lists of detected and suppressed errors, rerun with: -s
+==1562== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1588== Memcheck, a memory error detector
+==1588== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1588== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1588== Command: ./firewall.exe src-ip=217.113.176.15/32
+==1588== 
+Total parsing time: 54.457 ms (Net: 16.526 ms) 
+==1588== 
+==1588== HEAP SUMMARY:
+==1588==     in use at exit: 0 bytes in 0 blocks
+==1588==   total heap usage: 2,032 allocs, 2,032 frees, 166,414 bytes allocated
+==1588== 
+==1588== All heap blocks were freed -- no leaks are possible
+==1588== 
+==1588== For lists of detected and suppressed errors, rerun with: -s
+==1588== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1591== Memcheck, a memory error detector
+==1591== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1591== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1591== Command: ./firewall.exe dst-ip=142.48.196.163/32
+==1591== 
+Total parsing time: 27.188 ms (Net: 4.427 ms) 
+==1591== 
+==1591== HEAP SUMMARY:
+==1591==     in use at exit: 0 bytes in 0 blocks
+==1591==   total heap usage: 92 allocs, 92 frees, 84,292 bytes allocated
+==1591== 
+==1591== All heap blocks were freed -- no leaks are possible
+==1591== 
+==1591== For lists of detected and suppressed errors, rerun with: -s
+==1591== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1594== Memcheck, a memory error detector
+==1594== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1594== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1594== Command: ./firewall.exe src-port=119-119
+==1594== 
+Total parsing time: 27.399 ms (Net: 4.332 ms) 
+==1594== 
+==1594== HEAP SUMMARY:
+==1594==     in use at exit: 0 bytes in 0 blocks
+==1594==   total heap usage: 71 allocs, 71 frees, 83,618 bytes allocated
+==1594== 
+==1594== All heap blocks were freed -- no leaks are possible
+==1594== 
+==1594== For lists of detected and suppressed errors, rerun with: -s
+==1594== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1620== Memcheck, a memory error detector
+==1620== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1620== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1620== Command: ./firewall.exe src-ip=228.89.68.117/32
+==1620== 
+Total parsing time: 50.696 ms (Net: 16.553 ms) 
+==1620== 
+==1620== HEAP SUMMARY:
+==1620==     in use at exit: 0 bytes in 0 blocks
+==1620==   total heap usage: 2,032 allocs, 2,032 frees, 166,395 bytes allocated
+==1620== 
+==1620== All heap blocks were freed -- no leaks are possible
+==1620== 
+==1620== For lists of detected and suppressed errors, rerun with: -s
+==1620== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1623== Memcheck, a memory error detector
+==1623== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1623== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1623== Command: ./firewall.exe dst-ip=158.243.66.138/32
+==1623== 
+Total parsing time: 27.896 ms (Net: 5.091 ms) 
+==1623== 
+==1623== HEAP SUMMARY:
+==1623==     in use at exit: 0 bytes in 0 blocks
+==1623==   total heap usage: 92 allocs, 92 frees, 84,236 bytes allocated
+==1623== 
+==1623== All heap blocks were freed -- no leaks are possible
+==1623== 
+==1623== For lists of detected and suppressed errors, rerun with: -s
+==1623== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1626== Memcheck, a memory error detector
+==1626== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1626== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1626== Command: ./firewall.exe src-port=21-21
+==1626== 
+Total parsing time: 27.811 ms (Net: 4.163 ms) 
+==1626== 
+==1626== HEAP SUMMARY:
+==1626==     in use at exit: 0 bytes in 0 blocks
+==1626==   total heap usage: 71 allocs, 71 frees, 83,521 bytes allocated
+==1626== 
+==1626== All heap blocks were freed -- no leaks are possible
+==1626== 
+==1626== For lists of detected and suppressed errors, rerun with: -s
+==1626== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1652== Memcheck, a memory error detector
+==1652== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1652== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1652== Command: ./firewall.exe src-ip=221.38.156.76/32
+==1652== 
+Total parsing time: 49.181 ms (Net: 15.474 ms) 
+==1652== 
+==1652== HEAP SUMMARY:
+==1652==     in use at exit: 0 bytes in 0 blocks
+==1652==   total heap usage: 2,032 allocs, 2,032 frees, 166,395 bytes allocated
+==1652== 
+==1652== All heap blocks were freed -- no leaks are possible
+==1652== 
+==1652== For lists of detected and suppressed errors, rerun with: -s
+==1652== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1655== Memcheck, a memory error detector
+==1655== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1655== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1655== Command: ./firewall.exe dst-ip=143.148.9.74/32
+==1655== 
+Total parsing time: 27.888 ms (Net: 4.755 ms) 
+==1655== 
+==1655== HEAP SUMMARY:
+==1655==     in use at exit: 0 bytes in 0 blocks
+==1655==   total heap usage: 132 allocs, 132 frees, 85,796 bytes allocated
+==1655== 
+==1655== All heap blocks were freed -- no leaks are possible
+==1655== 
+==1655== For lists of detected and suppressed errors, rerun with: -s
+==1655== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1658== Memcheck, a memory error detector
+==1658== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1658== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1658== Command: ./firewall.exe src-port=119-119
+==1658== 
+Total parsing time: 29.028 ms (Net: 4.897 ms) 
+==1658== 
+==1658== HEAP SUMMARY:
+==1658==     in use at exit: 0 bytes in 0 blocks
+==1658==   total heap usage: 99 allocs, 99 frees, 84,908 bytes allocated
+==1658== 
+==1658== All heap blocks were freed -- no leaks are possible
+==1658== 
+==1658== For lists of detected and suppressed errors, rerun with: -s
+==1658== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1684== Memcheck, a memory error detector
+==1684== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1684== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1684== Command: ./firewall.exe src-ip=248.3.249.77/32
+==1684== 
+Total parsing time: 52.232 ms (Net: 16.865 ms) 
+==1684== 
+==1684== HEAP SUMMARY:
+==1684==     in use at exit: 0 bytes in 0 blocks
+==1684==   total heap usage: 2,032 allocs, 2,032 frees, 166,376 bytes allocated
+==1684== 
+==1684== All heap blocks were freed -- no leaks are possible
+==1684== 
+==1684== For lists of detected and suppressed errors, rerun with: -s
+==1684== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1687== Memcheck, a memory error detector
+==1687== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1687== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1687== Command: ./firewall.exe dst-ip=185.190.142.133/32
+==1687== 
+Total parsing time: 31.797 ms (Net: 5.200 ms) 
+==1687== 
+==1687== HEAP SUMMARY:
+==1687==     in use at exit: 0 bytes in 0 blocks
+==1687==   total heap usage: 152 allocs, 152 frees, 86,827 bytes allocated
+==1687== 
+==1687== All heap blocks were freed -- no leaks are possible
+==1687== 
+==1687== For lists of detected and suppressed errors, rerun with: -s
+==1687== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1690== Memcheck, a memory error detector
+==1690== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1690== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1690== Command: ./firewall.exe src-port=53-53
+==1690== 
+Total parsing time: 27.466 ms (Net: 4.254 ms) 
+==1690== 
+==1690== HEAP SUMMARY:
+==1690==     in use at exit: 0 bytes in 0 blocks
+==1690==   total heap usage: 113 allocs, 113 frees, 85,586 bytes allocated
+==1690== 
+==1690== All heap blocks were freed -- no leaks are possible
+==1690== 
+==1690== For lists of detected and suppressed errors, rerun with: -s
+==1690== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1716== Memcheck, a memory error detector
+==1716== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1716== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1716== Command: ./firewall.exe src-ip=237.106.159.250/32
+==1716== 
+Total parsing time: 50.414 ms (Net: 16.010 ms) 
+==1716== 
+==1716== HEAP SUMMARY:
+==1716==     in use at exit: 0 bytes in 0 blocks
+==1716==   total heap usage: 2,032 allocs, 2,032 frees, 166,433 bytes allocated
+==1716== 
+==1716== All heap blocks were freed -- no leaks are possible
+==1716== 
+==1716== For lists of detected and suppressed errors, rerun with: -s
+==1716== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1719== Memcheck, a memory error detector
+==1719== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1719== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1719== Command: ./firewall.exe dst-ip=180.152.8.90/32
+==1719== 
+Total parsing time: 31.134 ms (Net: 5.503 ms) 
+==1719== 
+==1719== HEAP SUMMARY:
+==1719==     in use at exit: 0 bytes in 0 blocks
+==1719==   total heap usage: 92 allocs, 92 frees, 84,176 bytes allocated
+==1719== 
+==1719== All heap blocks were freed -- no leaks are possible
+==1719== 
+==1719== For lists of detected and suppressed errors, rerun with: -s
+==1719== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1722== Memcheck, a memory error detector
+==1722== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1722== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1722== Command: ./firewall.exe src-port=53-53
+==1722== 
+Total parsing time: 29.779 ms (Net: 4.793 ms) 
+==1722== 
+==1722== HEAP SUMMARY:
+==1722==     in use at exit: 0 bytes in 0 blocks
+==1722==   total heap usage: 71 allocs, 71 frees, 83,535 bytes allocated
+==1722== 
+==1722== All heap blocks were freed -- no leaks are possible
+==1722== 
+==1722== For lists of detected and suppressed errors, rerun with: -s
+==1722== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1748== Memcheck, a memory error detector
+==1748== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1748== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1748== Command: ./firewall.exe src-ip=251.117.126.87/32
+==1748== 
+Total parsing time: 50.268 ms (Net: 15.871 ms) 
+==1748== 
+==1748== HEAP SUMMARY:
+==1748==     in use at exit: 0 bytes in 0 blocks
+==1748==   total heap usage: 2,032 allocs, 2,032 frees, 166,414 bytes allocated
+==1748== 
+==1748== All heap blocks were freed -- no leaks are possible
+==1748== 
+==1748== For lists of detected and suppressed errors, rerun with: -s
+==1748== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1751== Memcheck, a memory error detector
+==1751== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1751== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1751== Command: ./firewall.exe dst-ip=185.106.148.74/32
+==1751== 
+Total parsing time: 27.294 ms (Net: 4.479 ms) 
+==1751== 
+==1751== HEAP SUMMARY:
+==1751==     in use at exit: 0 bytes in 0 blocks
+==1751==   total heap usage: 92 allocs, 92 frees, 84,271 bytes allocated
+==1751== 
+==1751== All heap blocks were freed -- no leaks are possible
+==1751== 
+==1751== For lists of detected and suppressed errors, rerun with: -s
+==1751== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1754== Memcheck, a memory error detector
+==1754== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1754== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1754== Command: ./firewall.exe src-port=25-25
+==1754== 
+Total parsing time: 26.827 ms (Net: 4.071 ms) 
+==1754== 
+==1754== HEAP SUMMARY:
+==1754==     in use at exit: 0 bytes in 0 blocks
+==1754==   total heap usage: 71 allocs, 71 frees, 83,556 bytes allocated
+==1754== 
+==1754== All heap blocks were freed -- no leaks are possible
+==1754== 
+==1754== For lists of detected and suppressed errors, rerun with: -s
+==1754== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1780== Memcheck, a memory error detector
+==1780== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1780== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1780== Command: ./firewall.exe src-ip=244.78.44.72/32
+==1780== 
+Total parsing time: 49.849 ms (Net: 15.859 ms) 
+==1780== 
+==1780== HEAP SUMMARY:
+==1780==     in use at exit: 0 bytes in 0 blocks
+==1780==   total heap usage: 2,032 allocs, 2,032 frees, 166,376 bytes allocated
+==1780== 
+==1780== All heap blocks were freed -- no leaks are possible
+==1780== 
+==1780== For lists of detected and suppressed errors, rerun with: -s
+==1780== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1783== Memcheck, a memory error detector
+==1783== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1783== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1783== Command: ./firewall.exe dst-ip=178.161.181.61/32
+==1783== 
+Total parsing time: 27.137 ms (Net: 4.384 ms) 
+==1783== 
+==1783== HEAP SUMMARY:
+==1783==     in use at exit: 0 bytes in 0 blocks
+==1783==   total heap usage: 72 allocs, 72 frees, 83,393 bytes allocated
+==1783== 
+==1783== All heap blocks were freed -- no leaks are possible
+==1783== 
+==1783== For lists of detected and suppressed errors, rerun with: -s
+==1783== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1786== Memcheck, a memory error detector
+==1786== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1786== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1786== Command: ./firewall.exe src-port=80-80
+==1786== 
+Total parsing time: 26.662 ms (Net: 3.939 ms) 
+==1786== 
+==1786== HEAP SUMMARY:
+==1786==     in use at exit: 0 bytes in 0 blocks
+==1786==   total heap usage: 57 allocs, 57 frees, 82,835 bytes allocated
+==1786== 
+==1786== All heap blocks were freed -- no leaks are possible
+==1786== 
+==1786== For lists of detected and suppressed errors, rerun with: -s
+==1786== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1812== Memcheck, a memory error detector
+==1812== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1812== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1812== Command: ./firewall.exe src-ip=223.18.116.155/32
+==1812== 
+Total parsing time: 50.742 ms (Net: 16.300 ms) 
+==1812== 
+==1812== HEAP SUMMARY:
+==1812==     in use at exit: 0 bytes in 0 blocks
+==1812==   total heap usage: 2,032 allocs, 2,032 frees, 166,414 bytes allocated
+==1812== 
+==1812== All heap blocks were freed -- no leaks are possible
+==1812== 
+==1812== For lists of detected and suppressed errors, rerun with: -s
+==1812== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1815== Memcheck, a memory error detector
+==1815== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1815== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1815== Command: ./firewall.exe dst-ip=149.130.87.197/32
+==1815== 
+Total parsing time: 27.974 ms (Net: 4.801 ms) 
+==1815== 
+==1815== HEAP SUMMARY:
+==1815==     in use at exit: 0 bytes in 0 blocks
+==1815==   total heap usage: 112 allocs, 112 frees, 85,149 bytes allocated
+==1815== 
+==1815== All heap blocks were freed -- no leaks are possible
+==1815== 
+==1815== For lists of detected and suppressed errors, rerun with: -s
+==1815== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1818== Memcheck, a memory error detector
+==1818== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1818== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1818== Command: ./firewall.exe src-port=119-119
+==1818== 
+Total parsing time: 27.457 ms (Net: 4.246 ms) 
+==1818== 
+==1818== HEAP SUMMARY:
+==1818==     in use at exit: 0 bytes in 0 blocks
+==1818==   total heap usage: 85 allocs, 85 frees, 84,319 bytes allocated
+==1818== 
+==1818== All heap blocks were freed -- no leaks are possible
+==1818== 
+==1818== For lists of detected and suppressed errors, rerun with: -s
+==1818== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1844== Memcheck, a memory error detector
+==1844== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1844== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1844== Command: ./firewall.exe src-ip=41.55.55.0/24
+==1844== 
+Total parsing time: 42.636 ms (Net: 16.058 ms) 
+==1844== 
+==1844== HEAP SUMMARY:
+==1844==     in use at exit: 0 bytes in 0 blocks
+==1844==   total heap usage: 2,031 allocs, 2,031 frees, 162,242 bytes allocated
+==1844== 
+==1844== All heap blocks were freed -- no leaks are possible
+==1844== 
+==1844== For lists of detected and suppressed errors, rerun with: -s
+==1844== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1847== Memcheck, a memory error detector
+==1847== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1847== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1847== Command: ./firewall.exe dst-ip=0.0.0.0/0
+==1847== 
+Total parsing time: 13.014 ms (Net: 2.474 ms) 
+==1847== 
+==1847== HEAP SUMMARY:
+==1847==     in use at exit: 0 bytes in 0 blocks
+==1847==   total heap usage: 33 allocs, 33 frees, 77,297 bytes allocated
+==1847== 
+==1847== All heap blocks were freed -- no leaks are possible
+==1847== 
+==1847== For lists of detected and suppressed errors, rerun with: -s
+==1847== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1850== Memcheck, a memory error detector
+==1850== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1850== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1850== Command: ./firewall.exe src-port=0-65535
+==1850== 
+Total parsing time: 13.338 ms (Net: 2.600 ms) 
+==1850== 
+==1850== HEAP SUMMARY:
+==1850==     in use at exit: 0 bytes in 0 blocks
+==1850==   total heap usage: 30 allocs, 30 frees, 77,245 bytes allocated
+==1850== 
+==1850== All heap blocks were freed -- no leaks are possible
+==1850== 
+==1850== For lists of detected and suppressed errors, rerun with: -s
+==1850== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1876== Memcheck, a memory error detector
+==1876== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1876== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1876== Command: ./firewall.exe src-ip=220.53.65.133/32
+==1876== 
+Total parsing time: 49.491 ms (Net: 15.737 ms) 
+==1876== 
+==1876== HEAP SUMMARY:
+==1876==     in use at exit: 0 bytes in 0 blocks
+==1876==   total heap usage: 2,032 allocs, 2,032 frees, 166,395 bytes allocated
+==1876== 
+==1876== All heap blocks were freed -- no leaks are possible
+==1876== 
+==1876== For lists of detected and suppressed errors, rerun with: -s
+==1876== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1879== Memcheck, a memory error detector
+==1879== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1879== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1879== Command: ./firewall.exe dst-ip=150.176.183.54/32
+==1879== 
+Total parsing time: 27.269 ms (Net: 4.503 ms) 
+==1879== 
+==1879== HEAP SUMMARY:
+==1879==     in use at exit: 0 bytes in 0 blocks
+==1879==   total heap usage: 92 allocs, 92 frees, 84,264 bytes allocated
+==1879== 
+==1879== All heap blocks were freed -- no leaks are possible
+==1879== 
+==1879== For lists of detected and suppressed errors, rerun with: -s
+==1879== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1882== Memcheck, a memory error detector
+==1882== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1882== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1882== Command: ./firewall.exe src-port=123-123
+==1882== 
+Total parsing time: 26.715 ms (Net: 3.985 ms) 
+==1882== 
+==1882== HEAP SUMMARY:
+==1882==     in use at exit: 0 bytes in 0 blocks
+==1882==   total heap usage: 71 allocs, 71 frees, 83,590 bytes allocated
+==1882== 
+==1882== All heap blocks were freed -- no leaks are possible
+==1882== 
+==1882== For lists of detected and suppressed errors, rerun with: -s
+==1882== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1908== Memcheck, a memory error detector
+==1908== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1908== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1908== Command: ./firewall.exe src-ip=226.114.202.119/32
+==1908== 
+Total parsing time: 50.257 ms (Net: 15.717 ms) 
+==1908== 
+==1908== HEAP SUMMARY:
+==1908==     in use at exit: 0 bytes in 0 blocks
+==1908==   total heap usage: 2,032 allocs, 2,032 frees, 166,433 bytes allocated
+==1908== 
+==1908== All heap blocks were freed -- no leaks are possible
+==1908== 
+==1908== For lists of detected and suppressed errors, rerun with: -s
+==1908== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1911== Memcheck, a memory error detector
+==1911== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1911== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1911== Command: ./firewall.exe dst-ip=155.58.47.120/32
+==1911== 
+Total parsing time: 26.952 ms (Net: 4.350 ms) 
+==1911== 
+==1911== HEAP SUMMARY:
+==1911==     in use at exit: 0 bytes in 0 blocks
+==1911==   total heap usage: 72 allocs, 72 frees, 83,404 bytes allocated
+==1911== 
+==1911== All heap blocks were freed -- no leaks are possible
+==1911== 
+==1911== For lists of detected and suppressed errors, rerun with: -s
+==1911== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1914== Memcheck, a memory error detector
+==1914== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1914== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1914== Command: ./firewall.exe src-port=119-119
+==1914== 
+Total parsing time: 26.851 ms (Net: 4.163 ms) 
+==1914== 
+==1914== HEAP SUMMARY:
+==1914==     in use at exit: 0 bytes in 0 blocks
+==1914==   total heap usage: 57 allocs, 57 frees, 82,917 bytes allocated
+==1914== 
+==1914== All heap blocks were freed -- no leaks are possible
+==1914== 
+==1914== For lists of detected and suppressed errors, rerun with: -s
+==1914== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1940== Memcheck, a memory error detector
+==1940== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1940== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1940== Command: ./firewall.exe src-ip=234.249.119.176/32
+==1940== 
+Total parsing time: 49.661 ms (Net: 15.472 ms) 
+==1940== 
+==1940== HEAP SUMMARY:
+==1940==     in use at exit: 0 bytes in 0 blocks
+==1940==   total heap usage: 2,032 allocs, 2,032 frees, 166,433 bytes allocated
+==1940== 
+==1940== All heap blocks were freed -- no leaks are possible
+==1940== 
+==1940== For lists of detected and suppressed errors, rerun with: -s
+==1940== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1943== Memcheck, a memory error detector
+==1943== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1943== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1943== Command: ./firewall.exe dst-ip=183.194.38.134/32
+==1943== 
+Total parsing time: 29.413 ms (Net: 5.025 ms) 
+==1943== 
+==1943== HEAP SUMMARY:
+==1943==     in use at exit: 0 bytes in 0 blocks
+==1943==   total heap usage: 172 allocs, 172 frees, 87,748 bytes allocated
+==1943== 
+==1943== All heap blocks were freed -- no leaks are possible
+==1943== 
+==1943== For lists of detected and suppressed errors, rerun with: -s
+==1943== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1946== Memcheck, a memory error detector
+==1946== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1946== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1946== Command: ./firewall.exe src-port=123-123
+==1946== 
+Total parsing time: 28.868 ms (Net: 4.918 ms) 
+==1946== 
+==1946== HEAP SUMMARY:
+==1946==     in use at exit: 0 bytes in 0 blocks
+==1946==   total heap usage: 127 allocs, 127 frees, 86,450 bytes allocated
+==1946== 
+==1946== All heap blocks were freed -- no leaks are possible
+==1946== 
+==1946== For lists of detected and suppressed errors, rerun with: -s
+==1946== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1972== Memcheck, a memory error detector
+==1972== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1972== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1972== Command: ./firewall.exe src-ip=240.128.41.87/32
+==1972== 
+Total parsing time: 48.906 ms (Net: 15.358 ms) 
+==1972== 
+==1972== HEAP SUMMARY:
+==1972==     in use at exit: 0 bytes in 0 blocks
+==1972==   total heap usage: 2,032 allocs, 2,032 frees, 166,395 bytes allocated
+==1972== 
+==1972== All heap blocks were freed -- no leaks are possible
+==1972== 
+==1972== For lists of detected and suppressed errors, rerun with: -s
+==1972== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1975== Memcheck, a memory error detector
+==1975== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1975== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1975== Command: ./firewall.exe dst-ip=176.231.117.253/32
+==1975== 
+Total parsing time: 26.951 ms (Net: 4.286 ms) 
+==1975== 
+==1975== HEAP SUMMARY:
+==1975==     in use at exit: 0 bytes in 0 blocks
+==1975==   total heap usage: 52 allocs, 52 frees, 82,596 bytes allocated
+==1975== 
+==1975== All heap blocks were freed -- no leaks are possible
+==1975== 
+==1975== For lists of detected and suppressed errors, rerun with: -s
+==1975== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1978== Memcheck, a memory error detector
+==1978== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1978== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1978== Command: ./firewall.exe src-port=20-20
+==1978== 
+Total parsing time: 27.059 ms (Net: 3.843 ms) 
+==1978== 
+==1978== HEAP SUMMARY:
+==1978==     in use at exit: 0 bytes in 0 blocks
+==1978==   total heap usage: 43 allocs, 43 frees, 82,170 bytes allocated
+==1978== 
+==1978== All heap blocks were freed -- no leaks are possible
+==1978== 
+==1978== For lists of detected and suppressed errors, rerun with: -s
+==1978== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2004== Memcheck, a memory error detector
+==2004== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2004== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2004== Command: ./firewall.exe src-ip=229.100.215.156/32
+==2004== 
+Total parsing time: 53.800 ms (Net: 19.473 ms) 
+==2004== 
+==2004== HEAP SUMMARY:
+==2004==     in use at exit: 0 bytes in 0 blocks
+==2004==   total heap usage: 2,032 allocs, 2,032 frees, 166,433 bytes allocated
+==2004== 
+==2004== All heap blocks were freed -- no leaks are possible
+==2004== 
+==2004== For lists of detected and suppressed errors, rerun with: -s
+==2004== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2007== Memcheck, a memory error detector
+==2007== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2007== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2007== Command: ./firewall.exe dst-ip=226.160.54.127/32
+==2007== 
+Total parsing time: 27.020 ms (Net: 4.525 ms) 
+==2007== 
+==2007== HEAP SUMMARY:
+==2007==     in use at exit: 0 bytes in 0 blocks
+==2007==   total heap usage: 92 allocs, 92 frees, 84,306 bytes allocated
+==2007== 
+==2007== All heap blocks were freed -- no leaks are possible
+==2007== 
+==2007== For lists of detected and suppressed errors, rerun with: -s
+==2007== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2010== Memcheck, a memory error detector
+==2010== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2010== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2010== Command: ./firewall.exe src-port=123-123
+==2010== 
+Total parsing time: 26.844 ms (Net: 3.961 ms) 
+==2010== 
+==2010== HEAP SUMMARY:
+==2010==     in use at exit: 0 bytes in 0 blocks
+==2010==   total heap usage: 71 allocs, 71 frees, 83,632 bytes allocated
+==2010== 
+==2010== All heap blocks were freed -- no leaks are possible
+==2010== 
+==2010== For lists of detected and suppressed errors, rerun with: -s
+==2010== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2036== Memcheck, a memory error detector
+==2036== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2036== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2036== Command: ./firewall.exe src-ip=225.67.145.240/32
+==2036== 
+Total parsing time: 49.074 ms (Net: 15.542 ms) 
+==2036== 
+==2036== HEAP SUMMARY:
+==2036==     in use at exit: 0 bytes in 0 blocks
+==2036==   total heap usage: 2,032 allocs, 2,032 frees, 166,414 bytes allocated
+==2036== 
+==2036== All heap blocks were freed -- no leaks are possible
+==2036== 
+==2036== For lists of detected and suppressed errors, rerun with: -s
+==2036== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2039== Memcheck, a memory error detector
+==2039== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2039== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2039== Command: ./firewall.exe dst-ip=152.167.85.27/32
+==2039== 
+Total parsing time: 27.201 ms (Net: 4.405 ms) 
+==2039== 
+==2039== HEAP SUMMARY:
+==2039==     in use at exit: 0 bytes in 0 blocks
+==2039==   total heap usage: 92 allocs, 92 frees, 84,213 bytes allocated
+==2039== 
+==2039== All heap blocks were freed -- no leaks are possible
+==2039== 
+==2039== For lists of detected and suppressed errors, rerun with: -s
+==2039== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2042== Memcheck, a memory error detector
+==2042== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2042== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2042== Command: ./firewall.exe src-port=25-25
+==2042== 
+Total parsing time: 26.746 ms (Net: 3.849 ms) 
+==2042== 
+==2042== HEAP SUMMARY:
+==2042==     in use at exit: 0 bytes in 0 blocks
+==2042==   total heap usage: 71 allocs, 71 frees, 83,535 bytes allocated
+==2042== 
+==2042== All heap blocks were freed -- no leaks are possible
+==2042== 
+==2042== For lists of detected and suppressed errors, rerun with: -s
+==2042== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2068== Memcheck, a memory error detector
+==2068== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2068== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2068== Command: ./firewall.exe src-ip=254.78.247.77/32
+==2068== 
+Total parsing time: 48.630 ms (Net: 15.261 ms) 
+==2068== 
+==2068== HEAP SUMMARY:
+==2068==     in use at exit: 0 bytes in 0 blocks
+==2068==   total heap usage: 2,032 allocs, 2,032 frees, 166,395 bytes allocated
+==2068== 
+==2068== All heap blocks were freed -- no leaks are possible
+==2068== 
+==2068== For lists of detected and suppressed errors, rerun with: -s
+==2068== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2071== Memcheck, a memory error detector
+==2071== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2071== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2071== Command: ./firewall.exe dst-ip=191.239.80.24/32
+==2071== 
+Total parsing time: 26.657 ms (Net: 4.347 ms) 
+==2071== 
+==2071== HEAP SUMMARY:
+==2071==     in use at exit: 0 bytes in 0 blocks
+==2071==   total heap usage: 52 allocs, 52 frees, 82,539 bytes allocated
+==2071== 
+==2071== All heap blocks were freed -- no leaks are possible
+==2071== 
+==2071== For lists of detected and suppressed errors, rerun with: -s
+==2071== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2074== Memcheck, a memory error detector
+==2074== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2074== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2074== Command: ./firewall.exe src-port=123-123
+==2074== 
+Total parsing time: 26.555 ms (Net: 4.015 ms) 
+==2074== 
+==2074== HEAP SUMMARY:
+==2074==     in use at exit: 0 bytes in 0 blocks
+==2074==   total heap usage: 43 allocs, 43 frees, 82,202 bytes allocated
+==2074== 
+==2074== All heap blocks were freed -- no leaks are possible
+==2074== 
+==2074== For lists of detected and suppressed errors, rerun with: -s
+==2074== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2100== Memcheck, a memory error detector
+==2100== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2100== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2100== Command: ./firewall.exe src-ip=211.165.247.115/32
+==2100== 
+Total parsing time: 48.989 ms (Net: 15.505 ms) 
+==2100== 
+==2100== HEAP SUMMARY:
+==2100==     in use at exit: 0 bytes in 0 blocks
+==2100==   total heap usage: 2,032 allocs, 2,032 frees, 166,433 bytes allocated
+==2100== 
+==2100== All heap blocks were freed -- no leaks are possible
+==2100== 
+==2100== For lists of detected and suppressed errors, rerun with: -s
+==2100== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2103== Memcheck, a memory error detector
+==2103== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2103== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2103== Command: ./firewall.exe dst-ip=154.146.168.180/32
+==2103== 
+Total parsing time: 28.197 ms (Net: 4.341 ms) 
+==2103== 
+==2103== HEAP SUMMARY:
+==2103==     in use at exit: 0 bytes in 0 blocks
+==2103==   total heap usage: 72 allocs, 72 frees, 83,480 bytes allocated
+==2103== 
+==2103== All heap blocks were freed -- no leaks are possible
+==2103== 
+==2103== For lists of detected and suppressed errors, rerun with: -s
+==2103== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2106== Memcheck, a memory error detector
+==2106== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2106== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2106== Command: ./firewall.exe src-port=53-53
+==2106== 
+Total parsing time: 27.858 ms (Net: 4.025 ms) 
+==2106== 
+==2106== HEAP SUMMARY:
+==2106==     in use at exit: 0 bytes in 0 blocks
+==2106==   total heap usage: 57 allocs, 57 frees, 82,891 bytes allocated
+==2106== 
+==2106== All heap blocks were freed -- no leaks are possible
+==2106== 
+==2106== For lists of detected and suppressed errors, rerun with: -s
+==2106== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2132== Memcheck, a memory error detector
+==2132== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2132== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2132== Command: ./firewall.exe src-ip=245.128.209.218/32
+==2132== 
+Total parsing time: 49.133 ms (Net: 15.494 ms) 
+==2132== 
+==2132== HEAP SUMMARY:
+==2132==     in use at exit: 0 bytes in 0 blocks
+==2132==   total heap usage: 2,032 allocs, 2,032 frees, 166,433 bytes allocated
+==2132== 
+==2132== All heap blocks were freed -- no leaks are possible
+==2132== 
+==2132== For lists of detected and suppressed errors, rerun with: -s
+==2132== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2135== Memcheck, a memory error detector
+==2135== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2135== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2135== Command: ./firewall.exe dst-ip=241.54.191.161/32
+==2135== 
+Total parsing time: 28.329 ms (Net: 4.473 ms) 
+==2135== 
+==2135== HEAP SUMMARY:
+==2135==     in use at exit: 0 bytes in 0 blocks
+==2135==   total heap usage: 92 allocs, 92 frees, 84,292 bytes allocated
+==2135== 
+==2135== All heap blocks were freed -- no leaks are possible
+==2135== 
+==2135== For lists of detected and suppressed errors, rerun with: -s
+==2135== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2138== Memcheck, a memory error detector
+==2138== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2138== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2138== Command: ./firewall.exe src-port=53-53
+==2138== 
+Total parsing time: 28.379 ms (Net: 4.267 ms) 
+==2138== 
+==2138== HEAP SUMMARY:
+==2138==     in use at exit: 0 bytes in 0 blocks
+==2138==   total heap usage: 71 allocs, 71 frees, 83,577 bytes allocated
+==2138== 
+==2138== All heap blocks were freed -- no leaks are possible
+==2138== 
+==2138== For lists of detected and suppressed errors, rerun with: -s
+==2138== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2164== Memcheck, a memory error detector
+==2164== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2164== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2164== Command: ./firewall.exe src-ip=255.174.107.144/32
+==2164== 
+Total parsing time: 49.241 ms (Net: 15.700 ms) 
+==2164== 
+==2164== HEAP SUMMARY:
+==2164==     in use at exit: 0 bytes in 0 blocks
+==2164==   total heap usage: 2,032 allocs, 2,032 frees, 166,433 bytes allocated
+==2164== 
+==2164== All heap blocks were freed -- no leaks are possible
+==2164== 
+==2164== For lists of detected and suppressed errors, rerun with: -s
+==2164== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2167== Memcheck, a memory error detector
+==2167== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2167== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2167== Command: ./firewall.exe dst-ip=191.91.51.33/32
+==2167== 
+Total parsing time: 27.265 ms (Net: 4.463 ms) 
+==2167== 
+==2167== HEAP SUMMARY:
+==2167==     in use at exit: 0 bytes in 0 blocks
+==2167==   total heap usage: 72 allocs, 72 frees, 83,338 bytes allocated
+==2167== 
+==2167== All heap blocks were freed -- no leaks are possible
+==2167== 
+==2167== For lists of detected and suppressed errors, rerun with: -s
+==2167== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==2170== Memcheck, a memory error detector
+==2170== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2170== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2170== Command: ./firewall.exe src-port=25-25
+==2170== 
+Total parsing time: 27.557 ms (Net: 4.683 ms) 
+==2170== 
+==2170== HEAP SUMMARY:
+==2170==     in use at exit: 0 bytes in 0 blocks
+==2170==   total heap usage: 57 allocs, 57 frees, 82,842 bytes allocated
+==2170== 
+==2170== All heap blocks were freed -- no leaks are possible
+==2170== 
+==2170== For lists of detected and suppressed errors, rerun with: -s
+==2170== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
