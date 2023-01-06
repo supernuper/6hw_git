@@ -1,0 +1,13 @@
+src-ip=217.113.176.15,dst-ip=142.48.196.163,src-port=119,dst-port=655 
+src-ip=217.113.176.15,dst-ip=142.48.196.163,src-port=119,dst-port=535 
+src-ip=217.113.176.15,dst-ip=142.48.196.163,src-port=119,dst-port=0 
+src-ip=248.3.249.77,  dst-ip=185.190.142.133,  src-port=53,  dst-port=26456
+src-ip=228.89.68.117  , dst-ip=158.243.66.138  , src-port=21  , dst-port=535  
+src-ip=232.130.197.246,  dst-ip=182.95.161.187,  src-port=53,  dst-port=2988  
+src-ip=248.3.249.77,  dst-ip=185.190.142.133,  src-port=53,  dst-port=38027  
+src-ip=228.89.68.117  , dst-ip=158.243.66.138  , src-port=21  , dst-port=5 
+src-ip=228.89.68.117  , dst-ip=158.243.66.138  , src-port=21  , dst-port=55 
+src-ip=228.89.68.117  , dst-ip=158.243.66.138  , src-port=21  , dst-port=535 
+src-ip=228.89.68.117  , dst-ip=158.243.66.138  , src-port=21  , dst-port=535
+
+ 

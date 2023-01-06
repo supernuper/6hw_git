@@ -1,0 +1,28 @@
+#include <stddef.h>
+#include <string.h>
+#include <stdlib.h>
+#include <iostream>
+using namespace std;
+
+struct A {
+    static int c;
+    A(){A::c++; cout << "A::A()" << endl;}
+    A(const A& A){A::c++; cout << "A::copy" << endl;}
+    ~A(){A::c--; cout << "A dtor" << endl;}
+};
+
+A afun(A *a) {
+    cout << "afun start" << endl;
+    A* tmp = new A(*a);
+    cout << "afun end" << endl;
+    return *tmp;
+};
+
+int A::c=0;
+
+int main(){
+    A a1 = A(*new A);
+    A a2 = afun(&a1);
+    cout << A::c << endl;
+    return 0;
+};
