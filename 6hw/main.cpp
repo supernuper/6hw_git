@@ -32,10 +32,10 @@ int main (int argc, char **argv){
         //set rule reference and print packets that match that rule
         if(ip_filed.set_value(out[1])){
             parse_input(ip_filed);
-            delete [] out;
+            delete []out;
             return SUCCESS;
         }
-        delete [] out;
+        delete []out;
     }
     //Rule is port
     else if(out[0].equals("src-port")||out[0].equals("dst-port")){
@@ -43,13 +43,12 @@ int main (int argc, char **argv){
         //set rule reference and print packets that match that rule
         if(port_filed.set_value(out[1])){
             parse_input(port_filed);
-            delete [] out;
+            delete []out;
             return SUCCESS;
         }
-        delete [] out;
+        delete []out;
     }
     else 
-    delete [] out;
+    delete []out;
 return FAIL;
 }
-

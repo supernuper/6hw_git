@@ -9,6 +9,10 @@
 #define MAX 255
 #define BYTE 8
 #define WORD 32
+#define SIZE 5
+#define ADRESS 4
+#define MASK 2
+#define PACKET 4
 
 
 //Constracto
@@ -25,6 +29,10 @@ bool ip::pick_val(String* pkt, ip this_ip){
     size_t size;
     pkt->split("=, ",&output,&size);
     if(size == 0){
+        return false;
+    }
+    else if(size != PACKET){
+        delete []output;
         return false;
     }
     for(size_t i=0; i<size-1 ;i++ ){
@@ -62,6 +70,10 @@ bool ip::match(String packet){
     size_t size; 
     unsigned int ip_num = 0;
     packet.split(".", &output, &size);
+    if(size != ADRESS){
+        delete []output; 
+        return false;   
+    }
     if(!ip_to_num(&ip_num, size, output)){
         return false;
     }
@@ -72,13 +84,37 @@ bool ip::match(String packet){
 //Set possible values to ip field
 bool ip::set_value(String value){
     String* output;
+    String* output_a;
     size_t size;
     unsigned int ip_num = 0;
+    //Check address 
+    value.split(".", &output_a, &size);
+    if(size != ADRESS){
+        delete []output_a; 
+        return false;   
+    }
+    output_a[ADRESS-1].split("/", &output, &size);
+    if(size != MASK){
+        delete []output_a;
+        delete []output; 
+        return false;   
+    }
+    delete []output_a;
+    delete []output;
+    //Done check 
     value.split("./", &output, &size);
+    if(size != SIZE){
+        delete []output; 
+        return false;   
+    }
     if(!ip_to_num(&ip_num, size - 1, output)){
         return false;
     }
     int mask = output[size-1].to_integer(); 
+    if(mask < 0 || mask > WORD){
+        delete []output;
+        return false;
+    }
     this->min = (mask == 0)? 0 : ip_num - (ip_num % (1 << (WORD-mask)));
     this->max = min + pow(2, (WORD-mask)) - 1;
     delete []output; 
